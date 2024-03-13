@@ -3,7 +3,7 @@
 import time
 import random
 import vlc
-p = vlc.MediaPlayer("D:\Documents\PyProjects\Colab-Sandbox\doorbell_sound.mp3")
+p = vlc.MediaPlayer("<filepath to the project directory>\doorbell_sound.mp3")
 
 def doorbell_sim():
     min_time = int(input("Enter the minimum number of seconds between doorbell rings: "))
