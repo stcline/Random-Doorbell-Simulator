@@ -13,3 +13,5 @@ def doorbell_sim():
         p.play()
         time.sleep(random.randint(min_time, max_time))
         p.stop()
+
+doorbell_sim()
