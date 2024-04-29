@@ -3,9 +3,10 @@
 import time
 import random
 import vlc
-p = vlc.MediaPlayer("<filepath to the project directory>\doorbell_sound.mp3")
+p = vlc.MediaPlayer("D:\Documents\PyProjects\Random-Doorbell-Simulator\doorbell_sound.mp3")
 
 def doorbell_sim():
+    #TODO Find a new doorbell sound
     min_time = int(input("Enter the minimum number of seconds between doorbell rings: "))
     max_time = int(input("Enter the maximum number of seconds between doorbell rings: "))
     while True:
